@@ -1,0 +1,103 @@
+*:focus {
+  outline: 2px solid #a11;
+}
+
+html {
+  min-width: 17.5rem;
+  font: 16px / 1.5 "Nunito", sans-serif;
+}
+
+body {
+  font-family: inherit;
+  background-color: #f5d9d5;
+}
+
+header {
+  transition: background-color 125ms ease-in-out;
+}
+
+/* Interactive class */
+header.change-bg {
+  background-color: #dec0de;
+}
+
+.navbar-brand,
+.nav-link {
+  font-size: 1.5em;
+  font-weight: 200;
+  border-radius: 0.125em;
+  outline-offset: 0.2em;
+  transition:
+      color 100ms,
+      outline-offset 100ms,
+      transform 100ms;
+}
+
+.navbar-brand {
+  color: #ea1c2c;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.navbar a:focus {
+  outline-offset: 0;
+}
+
+.navbar a:hover {
+  color: #ea1c2c;
+}
+
+.row {
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.h1-group {
+  font-weight: 200;
+}
+
+.h1-group span::after {
+  content: "/";
+  color: #ea1c2c;
+}
+
+.content .h2 {
+  font-size: 2.5em;
+  font-weight: 200;
+  color: #ea1c2c;
+}
+
+.content p {
+  max-width: 60ch;
+  font-size: 1.25em;
+  color: #f498b8;
+}
+
+footer div {
+  width: 2em;
+}
+
+footer a {
+  height: 2rem;
+  outline-offset: 0.5em;
+  transition:
+      outline-offset 150ms,
+      transform 175ms;
+}
+
+footer a:focus {
+  outline-offset: 0.25em;
+}
+
+footer a:hover {
+  transform: rotate(-40deg);
+}
+
+@media (min-width: 1400px) {
+  .h1-group {
+    font-size: calc(1.525rem + 3.1vw);
+  }
+}
