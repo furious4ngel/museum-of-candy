@@ -55,16 +55,7 @@ header.change-bg {
   margin-left: 0;
 }
 
-.h1-group {
-  font-weight: 200;
-}
-
-.h1-group span::after {
-  content: "/";
-  color: #ea1c2c;
-}
-
-.content .h2 {
+.content h2 {
   font-size: 2.5em;
   font-weight: 200;
   color: #ea1c2c;
@@ -94,10 +85,4 @@ footer a:focus {
 
 footer a:hover {
   transform: rotate(-40deg);
-}
-
-@media (min-width: 1400px) {
-  .h1-group {
-    font-size: calc(1.525rem + 3.1vw);
-  }
 }
