@@ -21,6 +21,10 @@ header.change-bg {
   background-color: #dec0de;
 }
 
+.navbar-toggler {
+  padding: 0.1em 0.5em;
+}
+
 .navbar-brand,
 .nav-link {
   font-size: 1.5em;
