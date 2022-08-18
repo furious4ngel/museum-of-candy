@@ -1,3 +1,9 @@
+*,
+::before,
+::after {
+  background-color: rgba(210, 105, 30, 0.13);
+}
+
 *:focus {
   outline: 2px solid #a11;
 }
@@ -53,19 +59,19 @@ header.change-bg {
   color: #ea1c2c;
 }
 
-section.row {
+.row {
   margin-top: 0;
   margin-right: 0;
   margin-left: 0;
 }
 
-.content h2 {
+section.row h2 {
   font-size: 2.5em;
   font-weight: 200;
   color: #ea1c2c;
 }
 
-.content p {
+section.row p {
   max-width: 60ch;
   font-size: 1.25em;
   color: #f498b8;
